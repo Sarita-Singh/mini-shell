@@ -1,6 +1,6 @@
 # Shell
 
-This project is an implementation of a shell that runs as an application program on top of the Linux kernel. A shell that runs as an application program on top of the Linux kernel. The shell accepts user commands, and execute the same
+This project is an implementation of a shell that runs as an application program on top of the Linux kernel. The shell accepts user commands and executes the same.
 
 ## Features Implemented
 
@@ -19,7 +19,7 @@ The following features have been implemented:
 - Implementing cursor movement using left/right arrow keys
 - Cursor moves to start/end of line using `Ctrl+A` and `Ctrl+E`
 
-I tried to make the shell as similar to the Bash terminal as possible, so that the commands you type in the shell work the same way as they would in the Bash terminal.
+I tried to make the shell as similar to the Bash terminal as possible so that the commands you type in the shell work the same way as they would in the Bash terminal.
 
 ## Additional Features
 
