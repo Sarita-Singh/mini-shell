@@ -34,3 +34,20 @@ Usage: `delep <filepath>`
 
 Detects a simple malware process that spawns multiple child processes and remains in an idle state. The command creates a child process which identifies the parent, grandparent, and so on of the suspected process and suggests the root cause of the issue based on a heuristic. The heuristic is explained in the [squashbug.heuristic.txt](squashbug.heuristic.txt) file.
 Usage: `sb [-suggest] <pid>`
+
+## Usage
+
+To run the shell, run the following commands in the terminal:
+
+1. Install readline library:
+
+```bash
+    sudo pacman -S readline
+```
+
+2. Use the makefile:
+
+```bash
+    make wish
+    ./wish
+```
